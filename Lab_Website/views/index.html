@@ -11,7 +11,8 @@
 <!--add links to 4 pages - Home, Hobbies, Projects, Resume. Set the attribute id="navbar" for this element.-->
 <nav class="navbar navbar-dark bg-dark fixed-top" href="../views/hobbies.html">
   <div>
-    <button class="btn btn-outline-success me-2" type="button" id="navbar" onclick="location.href='../views/index.html'">Home</button>
+    <button class="btn btn-outline-success me-2" type="button" id="navbar"
+      onclick="location.href='../views/index.html'">Home</button>
     <button class="btn btn-md btn-outline-secondary" type="button" id="navbar"
       onclick="location.href='../views/resume.html'">Resume</button>
     <button class="btn btn-md btn-outline-secondary" type="button" id="navbar"
@@ -24,16 +25,16 @@
   </a>
 </nav>
 
-
-
-<body>
-  <a>
-    <img src="../resources/images/me.jpg" width="300" height="400" id="self-image">
-    <b id="self-desc">
-      bla bla bla I rule
-    </b>
-  </a>
-
+<div class ="center">
+  <img src="../resources/images/me.jpg" width="300" height="400" id="self-image" >
+</div>
+<hr>
+<body class="center">
+    <p id="self-desc">
+      <code>printf('%s',"Hello world!")</code>My name is <i>Austin Hutchen.</i> I'm a software engineer from California
+      with dreams of becoming a full-stack developer, and eventually a neural network engineer.
+    </p>
+    <hr>
 
 
 
@@ -42,8 +43,7 @@
     crossorigin="anonymous"></script>
 </body>
 <footer id="footer">
- <a >
-  link
+
 </footer>
 
 </html>

@@ -2,10 +2,16 @@
 
 
 body { 
- padding-top: 60px; 
+ padding-top: 150px; 
 }
 
-img{
+footer{
+ float:left;
+ width:100%;
+ background-color:burlywood;
+ position: fixed;
+ padding-left: auto;
+ bottom: 0;
 
 }
 

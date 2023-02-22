@@ -13,4 +13,6 @@
  height: 10px;
  border-radius: 100%;
 }
-
+.carousel-inner > .item > img {
+ margin: 0 auto;
+}
